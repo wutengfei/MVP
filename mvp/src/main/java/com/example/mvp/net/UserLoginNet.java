@@ -17,7 +17,8 @@ public class UserLoginNet {
             e.printStackTrace();
         }
         if( user !=null){
-            if(TextUtils.equals(user.getUsername(),"123")&& TextUtils.equals(user.getPassword(),"123"))
+            if(TextUtils.equals(user.getUsername(),"123")&&
+                    TextUtils.equals(user.getPassword(),"123"))
                 return true;
         }
         return false;

@@ -44,9 +44,9 @@ public class MainActivity extends AppCompatActivity {
 
         dialog.setTitle("等待...");
         dialog.show();
-        boolean falge = checkUser(user);//基础校验
+        boolean flag = checkUser(user);//基础校验
 
-        if( falge){
+        if( flag){
             new Thread(new Runnable() {
                 @Override
                 public void run() {
